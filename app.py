@@ -53,6 +53,9 @@ vehicles = st.sidebar.multiselect("Vehicle type", sorted(df["Vehicle_Type"].uniq
                                   default=sorted(df["Vehicle_Type"].unique()))
 statuses = st.sidebar.multiselect("Booking status", sorted(df["Booking_Status"].unique()),
                                   default=sorted(df["Booking_Status"].unique()))
+st.sidebar.markdown(
+    "[View project on GitHub](https://github.com/priyanka-solanki07/ola-ride-insights)"
+)
 
 f = df[df["Vehicle_Type"].isin(vehicles) & df["Booking_Status"].isin(statuses)]
 if isinstance(date_range, (tuple, list)) and len(date_range) == 2:
