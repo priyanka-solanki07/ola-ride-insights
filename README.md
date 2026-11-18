@@ -4,7 +4,7 @@ Ride-sharing analytics on OLA's July 2024 bookings (103,024 rides): data cleanin
 
 [Live EDA dashboard](https://ola-ride-insights-a8bazxdiq4twddtnfrfcvn.streamlit.app/) | [GitHub repository](https://github.com/priyanka-solanki07/ola-ride-insights)
 
-Completed presentation: [PowerPoint deck](./Ola-Slides-Completed.pptx) | [PDF](./Ola-Slides-Completed.pdf)
+Latest presentation with visible charts: [PowerPoint deck](./Ola-Slides-With-Charts.pptx) | [PDF](./Ola-Slides-With-Charts.pdf)
 
 ## Project structure
 ```
@@ -15,8 +15,8 @@ data/ola.db                SQLite copy (table: ola_rides)
 sql/ola_queries.sql        the 10 SQL questions
 powerbi/POWERBI_GUIDE.md   DAX measures + page-by-page build steps
 clean.py                   cleaning script
-Ola-Slides-Completed.pptx  completed five-page analytics presentation
-Ola-Slides-Completed.pdf   PDF export of the presentation
+Ola-Slides-With-Charts.pptx five-page presentation with embedded charts
+Ola-Slides-With-Charts.pdf  PDF export of the chart-filled presentation
 ```
 Run the app: `pip install -r requirements.txt` then `streamlit run app.py`
 
