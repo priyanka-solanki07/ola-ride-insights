@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+data/ola.db
+OLA_DataSet.xlsx
